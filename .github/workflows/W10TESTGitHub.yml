@@ -11,8 +11,8 @@ jobs:
 
     - name: Download Ngrok
       run: |
-        Invoke-WebRequest https://github.com/QuocAnVN1310/NgrokRDP2022/raw/main/ngrok.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/QuocAnVN1310/NgrokRDP2022/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://github.com/QuocAnVN1310/NgrokRDP10-Test/raw/main/ngrok.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://raw.githubusercontent.com/QuocAnVN1310/NgrokRDP10-Test/main/start.bat -OutFile start.bat
     - name: Extract File
       run: Expand-Archive ngrok.zip
 
